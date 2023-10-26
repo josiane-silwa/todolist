@@ -2,15 +2,15 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
   }
-  
+
   /* header */
   .header {
     background-color: #3b3534;
-    padding: 30px 40px;
+    padding: 10px 10px;
     color: white;
     text-align: center;
     border-radius: 10px 10px 0 0;
-    width: 950px;
+    width: 80vw;
     margin: auto;
   }
   
@@ -26,7 +26,7 @@
     margin: 0;
     border: none;
     border-radius: 0;
-    width: 75%;
+    width: 50vw;
     padding: 10px;
     float: left;
     font-size: 16px;
@@ -36,7 +36,8 @@
   /* botao adicionar */
   .addBtn {
     padding: 10px;
-    width: 15%;
+    width: 18vw;
+    height: 38px;
     background: #d9d9d9;
     color: #555;
     float: left;
@@ -45,7 +46,7 @@
     cursor: pointer;
     transition: 0.3s;
     border-radius: 5px;
-    margin-left: 30px;
+    margin-left: 34px;
   }
   
   .addBtn:hover {
@@ -61,13 +62,13 @@
   ul li {
     cursor: pointer;
     position: relative;
-    padding: 12px 8px 12px 40px;
+    padding: 8px 8px 12px 20px;
     background: #eee;
     font-size: 18px;
     transition: 0.2s;
-    width: 950px;
+    width: 80vw;
     margin: auto;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 5px 5px;
     list-style: none;
 
     -webkit-user-select: none;
@@ -101,7 +102,7 @@
     border-style: solid;
     border-width: 0 2px 2px 0;
     top: 10px;
-    left: 16px;
+    left: 10px;
     transform: rotate(45deg);
     height: 15px;
     width: 7px;
@@ -120,4 +121,3 @@
     background-color: #f44336;
     color: white;
   }
-  
